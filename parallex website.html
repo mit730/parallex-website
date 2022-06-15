@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PARALLEX WEBSITE</title>
+<link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">logo</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+   <section>
+       <img src="starss.png" id="starss">
+       
+       <img src="moons.png" id="moons">
+       
+       <img src="mountains_fronts.png" id="mountains_fronts">
+       <h2 id="text">Moon Light</h2>
+       <a href="#sec" id="btn">Explore</a>
+       <img src="mountainss.png" id="mountainss">
+       
+   </section> 
+   <div class="sec" id="sec">
+       <h2>Parallax Scrolling Effect</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur culpa autem fugit iure ipsum, odio provident sapiente fugiat alias harum, ut possimus accusantium eius, placeat cum in veniam consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum suscipit, sed ad vel expedita voluptatum laboriosam illum commodi, iste, distinctio eaque rem quos maiores! Vel sint iure perspiciatis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque at numquam enim voluptates non qui neque minima ratione velit. Consequuntur minus perferendis distinctio in velit ullam perspiciatis consectetur nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non? Provident reiciendis ducimus ab iusto, dignissimos odit minus placeat nisi quaerat eaque quia necessitatibus. Id ducimus nam tenetur quae non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum deleniti pariatur, maiores laboriosam, quisquam doloribus saepe tenetur natus illo commodi assumenda vel debitis aliquam ullam, voluptas ea explicabo voluptatibus ex?<br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur culpa autem fugit iure ipsum, odio provident sapiente fugiat alias harum, ut possimus accusantium eius, placeat cum in veniam consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum suscipit, sed ad vel expedita voluptatum laboriosam illum commodi, iste, distinctio eaque rem quos maiores! Vel sint iure perspiciatis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque at numquam enim voluptates non qui neque minima ratione velit. Consequuntur minus perferendis distinctio in velit ullam perspiciatis consectetur nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non? Provident reiciendis ducimus ab iusto, dignissimos odit minus placeat nisi quaerat eaque quia necessitatibus. Id ducimus nam tenetur quae non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum deleniti pariatur, maiores laboriosam, quisquam doloribus saepe tenetur natus illo commodi assumenda vel debitis aliquam ullam, voluptas ea explicabo voluptatibus ex?<br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur culpa autem fugit iure ipsum, odio provident sapiente fugiat alias harum, ut possimus accusantium eius, placeat cum in veniam consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum suscipit, sed ad vel expedita voluptatum laboriosam illum commodi, iste, distinctio eaque rem quos maiores! Vel sint iure perspiciatis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque at numquam enim voluptates non qui neque minima ratione velit. Consequuntur minus perferendis distinctio in velit ullam perspiciatis consectetur nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non? Provident reiciendis ducimus ab iusto, dignissimos odit minus placeat nisi quaerat eaque quia necessitatibus. Id ducimus nam tenetur quae non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum deleniti pariatur, maiores laboriosam, quisquam doloribus saepe tenetur natus illo commodi assumenda vel debitis aliquam ullam, voluptas ea explicabo voluptatibus ex?</p>
+   </div>
+        <script>
+       let stars = document.getElementById('stars');
+       let moon = document.getElementById('moon');
+       let mountain_behind = document.getElementById('mountainss');
+       let text = document.getElementById('text')
+       let btn = document.getElementById('btn')
+       let mountain_front = document.getElementById('mountain_front');
+
+       window.addEventListener('scroll',function(){
+           let value = window.scrollY;
+           stars.style.left = value*0.25 + 'px';
+       })
+   </script>   
+
+
+</body>
+</html>
