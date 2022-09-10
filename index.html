@@ -1,48 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>PARALLEX WEBSITE</title>
-<link rel="stylesheet" type="text/css" href="style.css"
-</head>
-<body>
-    <header>
-        <a href="#" class="logo">logo</a>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </header>
-   <section>
-       <img src="starss.png" id="starss">
-       
-       <img src="moons.png" id="moons">
-       
-       <img src="mountains_fronts.png" id="mountains_fronts">
-       <h2 id="text">Moon Light</h2>
-       <a href="#sec" id="btn">Explore</a>
-       <img src="mountainss.png" id="mountainss">
-       
-   </section> 
-   <div class="sec" id="sec">
-       <h2>Parallax Scrolling Effect</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur culpa autem fugit iure ipsum, odio provident sapiente fugiat alias harum, ut possimus accusantium eius, placeat cum in veniam consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum suscipit, sed ad vel expedita voluptatum laboriosam illum commodi, iste, distinctio eaque rem quos maiores! Vel sint iure perspiciatis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque at numquam enim voluptates non qui neque minima ratione velit. Consequuntur minus perferendis distinctio in velit ullam perspiciatis consectetur nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non? Provident reiciendis ducimus ab iusto, dignissimos odit minus placeat nisi quaerat eaque quia necessitatibus. Id ducimus nam tenetur quae non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum deleniti pariatur, maiores laboriosam, quisquam doloribus saepe tenetur natus illo commodi assumenda vel debitis aliquam ullam, voluptas ea explicabo voluptatibus ex?<br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur culpa autem fugit iure ipsum, odio provident sapiente fugiat alias harum, ut possimus accusantium eius, placeat cum in veniam consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum suscipit, sed ad vel expedita voluptatum laboriosam illum commodi, iste, distinctio eaque rem quos maiores! Vel sint iure perspiciatis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque at numquam enim voluptates non qui neque minima ratione velit. Consequuntur minus perferendis distinctio in velit ullam perspiciatis consectetur nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non? Provident reiciendis ducimus ab iusto, dignissimos odit minus placeat nisi quaerat eaque quia necessitatibus. Id ducimus nam tenetur quae non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum deleniti pariatur, maiores laboriosam, quisquam doloribus saepe tenetur natus illo commodi assumenda vel debitis aliquam ullam, voluptas ea explicabo voluptatibus ex?<br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aspernatur culpa autem fugit iure ipsum, odio provident sapiente fugiat alias harum, ut possimus accusantium eius, placeat cum in veniam consequuntur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum suscipit, sed ad vel expedita voluptatum laboriosam illum commodi, iste, distinctio eaque rem quos maiores! Vel sint iure perspiciatis aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam cumque at numquam enim voluptates non qui neque minima ratione velit. Consequuntur minus perferendis distinctio in velit ullam perspiciatis consectetur nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, non? Provident reiciendis ducimus ab iusto, dignissimos odit minus placeat nisi quaerat eaque quia necessitatibus. Id ducimus nam tenetur quae non. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum deleniti pariatur, maiores laboriosam, quisquam doloribus saepe tenetur natus illo commodi assumenda vel debitis aliquam ullam, voluptas ea explicabo voluptatibus ex?</p>
-   </div>
-        <script>
-       let stars = document.getElementById('stars');
-       let moon = document.getElementById('moon');
-       let mountain_behind = document.getElementById('mountainss');
-       let text = document.getElementById('text')
-       let btn = document.getElementById('btn')
-       let mountain_front = document.getElementById('mountain_front');
-
-       window.addEventListener('scroll',function(){
-           let value = window.scrollY;
-           stars.style.left = value*0.25 + 'px';
-       })
-   </script>   
-
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="pimg1">
+      <div class="ptext">
+        <span class="textBg"> Nature </span>
+      </div>
+    </section> 
+    <section class="section section-light">
+      <h2>About Nature</h2>
+      <p>
+        The word nature is borrowed from the Old French nature and is derived from the Latin word natura, or "essential qualities, innate disposition", and in ancient times, literally meant "birth".[2] In ancient philosophy, natura is mostly used as the Latin translation of the Greek word physis (φύσις), which originally related to the intrinsic characteristics of plants, animals, and other features of the world to develop of their own accord.[3][4] The concept of nature as a whole, the physical universe, is one of several expansions of the original notion;[1] it began with certain core applications of the word φύσις by pre-Socratic philosophers (though this word had a dynamic dimension then, especially for Heraclitus), and has steadily gained currency ever since.
+      </p>
+    </section>
+    <section class="pimg2">
+      <div class="ptext">
+        <span class="textBg"> Explore Nature</span>
+      </div>
+    </section>
+    <section class="section section-dark">
+      <h2>Let's Explore</h2>
+      <p>
+        National parks contain many of our nation's most treasured landscapes, from the majestic mountain ranges of Alaska to the vast prairies of the Everglades. Learn about the natural resources in parks, from the rocks under our feet to the sky overhead and everything in between. Discover the issues that affect our parks and how we join with neighbors and partners to address them. Meet the people who protect our parks and learn how you can help preserve these treasures for generations to come.
+      </p>
+    </section>
+    <section class="pimg3">
+      <div class="ptext">
+        <span class="textBg"> LOOK, DEEP INTO NATURE</span>
+      </div>
+    </section>
+    <section class="section section-dark">
+      <h2>Look deep into nature</h2>
+      <p>
+        “A human being is a part of the whole called by us universe, a part limited in time and space. He experiences himself, his thoughts and feeling as something separated from the rest, a kind of optical delusion of his consciousness. This delusion is a kind of prison for us, restricting us to our personal desires and to affection for a few persons nearest to us. Our task must be to free ourselves from this prison by widening our circle of compassion to embrace all living creatures and the whole of nature in its beauty.”
+      </p>
+    </section>
+    <section class="pimg1">
+      <div class="ptext">
+        <span class="end"> “LOOK DEEP INTO NATURE & YOU WILL UNDERSTAND EVERYTHING BETTER”- ALBERT EINSTEIN </span>
+      </div>
+    </section>
+  </body>
 </html>
